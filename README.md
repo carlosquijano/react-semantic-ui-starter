@@ -1,10 +1,23 @@
-# react-typescript-starter
-###### Clean React + TypeScript starter, without usage of create-react-app ⚛
+# react-semantic-ui-starter
+###### Clean React + TypeScript + Semantic UI starter, without usage of create-react-app ⚛
 
-Configured with:
+## Features
+- Typescript
+- React
+- Semantic UI
+
+## Usage
+```
+$ yarn install
+$ yarn run build
+$ yarn run start:dev
+$ yarn run lint
+```
+
+## Configured with:
 - Webpack
 - ESLint
 - Prettier
 
-## Read post on medium:
-https://medium.com/@adriancelczynski/react-with-typescript-starter-kit-without-create-react-app-including-webpack-eslint-bef225c35ffa
+## Based on:
+https://github.com/GR34SE/react-typescript-starter
