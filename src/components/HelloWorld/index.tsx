@@ -1,22 +1,26 @@
 import React from "react";
+import {Divider, Header, Segment, Table, TableCell, TableRow} from "semantic-ui-react";
 
 const HelloWorld: React.FC = () => (
-    <>
-        <h1>Hello World</h1>
-
-        <hr />
-
-        <h3>Environmental variables:</h3>
-        <p>
-            process.env.PRODUCTION: <b>{process.env.PRODUCTION.toString()}</b>
-        </p>
-        <p>
-            process.env.NAME: <b>{process.env.NAME}</b>
-        </p>
-        <p>
-            process.env.VERSION: <b>{process.env.VERSION}</b>
-        </p>
-    </>
+    <Segment>
+        <Header size="large">Hello World</Header>
+        <Divider />
+        <Header size="small">Environmental variables:</Header>
+        <Table>
+            <TableRow>
+                <TableCell>process.env.PRODUCTION:</TableCell>
+                <TableCell>{process.env.PRODUCTION.toString()}</TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>process.env.NAME:</TableCell>
+                <TableCell>{process.env.NAME}</TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>process.env.VERSION:</TableCell>
+                <TableCell>{process.env.VERSION}</TableCell>
+            </TableRow>
+        </Table>
+    </Segment>
 );
 
 export default HelloWorld;
