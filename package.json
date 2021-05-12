@@ -3,7 +3,7 @@
   "description": "Clean React + TypeScript + Semantic UI starter, without usage of create-react-app ⚛",
   "version": "1.1.0",
   "main": "src/index.tsx",
-  "repository": "https://github.com/GR34SE/react-typescript-starter.git",
+  "repository": "git@github.com:carlosquijano/react-semantic-ui-starter.git",
   "license": "MIT",
   "private": false,
   "scripts": {
