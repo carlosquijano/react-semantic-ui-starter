@@ -2,16 +2,17 @@
 ###### Clean React + TypeScript + Semantic UI starter, without usage of create-react-app ⚛
 
 ## Features 
-- Typescript `4.1.3`
+
+- Typescript `4.2`
 - React `17`
-- Semantic UI `2.4.1`
-- Less `2.7.3`
+- Semantic UI `2.4`
+- Less `3.5`
 
 ## Usage
+
 ```
 $ yarn install
 $ yarn run start:dev
-$ yarn run lint
 ```
 
 ## Configured with:
